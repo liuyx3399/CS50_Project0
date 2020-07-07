@@ -26,10 +26,15 @@ th {
 }
 
 img {
-    width: auto;
-    /* align center not realized */
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
-ul li {
+#material-list li {
     color: orange;
+}
+
+.schedule-materials {
+    color: purple;
 }
