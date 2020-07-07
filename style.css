@@ -1,0 +1,35 @@
+@media (min-width: 1000px) {
+body {
+    background-color: auto;
+}
+}
+@media (max-width: 1000px) {
+body {
+    background-color: rgba(188, 245, 255, 0.836);
+}
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+
+img {
+    width: auto;
+    /* align center not realized */
+}
+
+ul li {
+    color: orange;
+}
